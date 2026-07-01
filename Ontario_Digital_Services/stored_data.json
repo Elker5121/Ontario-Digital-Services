@@ -1,0 +1,32 @@
+[
+    {
+        "user_data": {
+            "set": true,
+            "first_name": "Holden",
+            "last_name": "Traver",
+            "dob": "08/11/14",
+            "sin": "123-456-789"
+        },
+        "drivers_license": {
+            "set": true,
+            "address": "Avenue 356B",
+            "license_class": "G2",
+            "phone": "123-456-7890"
+        },
+        "license_plate": {
+            "set": true,
+            "make": "Kia",
+            "model": "Scion",
+            "year": "2015",
+            "colour": "White",
+            "number": "GLM-9116"
+        },
+        "health_card": {
+            "set": true,
+            "address": "Avenue 3B352",
+            "phone_number": "123-456-7890",
+            "number": "1386253630",
+            "version_code": "RF"
+        }
+    }
+]
