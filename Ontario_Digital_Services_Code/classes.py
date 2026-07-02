@@ -164,7 +164,7 @@ class StartMenu(Menu):
   '''
   def __init__(self, root, id, name):
     super().__init__(root, id, name)
-    self.__header_label = tk.Label(self.frame, text = 'Welcome to Ontario Online Services! \n\nApply if you do not have an account. \nLogin if you do have an account.', font = config.MENU_DESC_FONT, bg = config.LABEL_BG_COLOUR, width=50, height=5) # gives instructions to the user
+    self.__header_label = tk.Label(self.frame, text = 'Welcome to Ontario Digital Services! \n\nApply if you do not have an account. \nLogin if you do have an account.', font = config.MENU_DESC_FONT, bg = config.LABEL_BG_COLOUR, width=50, height=5) # gives instructions to the user
     self.__button_frame = tk.Frame(self.frame)
     self.__apply_button = tk.Button(self.__button_frame, text = 'Apply',  width=20, height=3, command = lambda : functions.show_menu('apply'), **config.BUTTON_VISUALS)
     self.__login_button = tk.Button(self.__button_frame, text = 'Login', width=20, height=3, command = lambda : functions.show_menu('login'), **config.BUTTON_VISUALS)
@@ -200,7 +200,7 @@ class ApplyMenu(ServiceMenu):
     if functions.does_user_exist(data.user_data['sin']): # if the sin number already exists
       for field in self.all_fields:
         field.change_colour(config.TEXT_INVALID_COLOUR) # change all fields to the invalid colour
-      self.show_error('That SIN# already exists.') # log the error
+      self.show_error('That SIN already exists.') # log the error
     else:
       for field in self.all_fields:
         field.change_colour(config.TEXT_VALID_COLOUR) # reset all of the field colours
@@ -234,7 +234,7 @@ class LoginMenu(ServiceMenu):
         functions.show_menu('home') # go to the home menu
         
     if data.is_user_logged_in == False: # if the user was not logged in, but there are users stored
-      self.show_error('That SIN# Does Not Exist.') # log the error
+      self.show_error('That SIN Does Not Exist.') # log the error
       
 class DriversLicenseMenu(ServiceMenu):
   '''

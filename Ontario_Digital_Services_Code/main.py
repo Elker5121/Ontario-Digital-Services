@@ -10,7 +10,7 @@ root.title('Ontario Digital Services')
 data.all_stored_users = functions.load_users() # store a reference to all of the stored users
 # create every menu inside of the data.all_menus list
 data.all_menus = [
-  classes.StartMenu(root, 'start', 'ServiceOntario'),
+  classes.StartMenu(root, 'start', 'Ontario Digital Services'),
   classes.LoginMenu(root, 'login', 'start', dict(), 'Login'),
   classes.ApplyMenu(root, 'apply', 'start', data.user_data, 'Apply'),
   classes.HomeMenu(root, 'home', 'Home'),

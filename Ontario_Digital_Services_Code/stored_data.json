@@ -1,0 +1,122 @@
+[
+    {
+        "user_data": {
+            "set": true,
+            "first_name": "Tray",
+            "last_name": "Guy",
+            "dob": "08/12/09",
+            "sin": "987-654-321"
+        },
+        "drivers_license": {
+            "set": true,
+            "address": "Pig Rd",
+            "license_class": "G2",
+            "phone": "1234567890"
+        },
+        "license_plate": {
+            "set": true,
+            "make": "Kia",
+            "model": "Scion",
+            "year": "1999",
+            "colour": "Blue",
+            "number": "VNT-1089"
+        },
+        "health_card": {
+            "set": true,
+            "address": "Pig Rd",
+            "phone_number": "1234567890",
+            "number": "5994696215",
+            "version_code": "LE"
+        }
+    },
+    {
+        "user_data": {
+            "set": true,
+            "first_name": "Tray",
+            "last_name": "Guy",
+            "dob": "08/12/31",
+            "sin": "123-321-908"
+        },
+        "drivers_license": {
+            "set": true,
+            "address": "Pig Rd",
+            "license_class": "G1",
+            "phone": "6805637573"
+        },
+        "license_plate": {
+            "set": true,
+            "make": "Honda",
+            "model": "Civic",
+            "year": "2026",
+            "colour": "Red",
+            "number": "EJT-7810"
+        },
+        "health_card": {
+            "set": true,
+            "address": "Gyt Rd",
+            "phone_number": "6804539363",
+            "number": "5758282263",
+            "version_code": "JC"
+        }
+    },
+    {
+        "user_data": {
+            "set": true,
+            "first_name": "Holden",
+            "last_name": "Traver",
+            "dob": "00/16/20",
+            "sin": "123-456-654"
+        },
+        "drivers_license": {
+            "set": true,
+            "address": "gefes",
+            "license_class": "sefs",
+            "phone": "sfefsf"
+        },
+        "license_plate": {
+            "set": false,
+            "make": null,
+            "model": null,
+            "year": null,
+            "colour": null,
+            "number": null
+        },
+        "health_card": {
+            "set": true,
+            "address": "awd",
+            "phone_number": "awd",
+            "number": "2045015744",
+            "version_code": "KY"
+        }
+    },
+    {
+        "user_data": {
+            "set": true,
+            "first_name": "Gerry",
+            "last_name": "Mans",
+            "dob": "01/08/05",
+            "sin": "123-456-789"
+        },
+        "drivers_license": {
+            "set": true,
+            "address": "Avenue 356B",
+            "license_class": "G",
+            "phone": "123-456-7890"
+        },
+        "license_plate": {
+            "set": true,
+            "make": "Kia",
+            "model": "Scion",
+            "year": "2015",
+            "colour": "White",
+            "number": "GLM-9116"
+        },
+        "health_card": {
+            "set": true,
+            "address": "Avenue 3B352",
+            "phone_number": "123-456-7890",
+            "number": "1386253630",
+            "version_code": "RF"
+        }
+    }
+]
